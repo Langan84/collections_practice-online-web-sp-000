@@ -44,5 +44,3 @@ def sum_array(int)
   int.inject do |sum, n| sum + n
   end
 end
-
-d
