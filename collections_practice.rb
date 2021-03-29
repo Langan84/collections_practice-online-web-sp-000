@@ -40,5 +40,11 @@ def find_a(array)
   end
 end
 
-def sum_array()
+def sum_array(int)
+  int.inject do |sum, n| sum + n
+  end
+end
+
+def sum_array(integers)
+  integers.inject{|sum, n| sum + n}
 end
