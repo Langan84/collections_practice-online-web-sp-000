@@ -45,6 +45,4 @@ def sum_array(int)
   end
 end
 
-def sum_array(integers)
-  integers.inject{|sum, n| sum + n}
-end
+d
