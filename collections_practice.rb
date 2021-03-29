@@ -36,9 +36,10 @@ kesha
 end
 
 def find_a(array)
-  array = []
-  new_array.find do |word| word.start_with? "a"
-    array << new_array
+  array.select do |word| word.start_with?("a")
   end
-  return array
+end
+
+def find_a(array)
+  array.select{|string| string.start_with?("a")}
 end
